@@ -11,8 +11,8 @@ using namespace std;
 
 int main(void)
 {
-    int in[FIVE] = {ONE, TWO, THREE, FOUR, FIVE};
-    myvector<int, FIVE> vec(in);
+    int arr[FIVE] = {ONE, TWO, THREE, FOUR, FIVE};
+    myvector<int, FIVE> vec(arr);
     vec.pushBack(SIX);
     vec.pushBack(SEVEN);
     vec.checkCreated();
